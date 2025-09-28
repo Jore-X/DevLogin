@@ -17,7 +17,7 @@ body{
 }
 
 .container{
-    width: 40vh;
+    width: 50vh;
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 10px;
@@ -116,4 +116,10 @@ body{
 }
 .register-link a:hover{
     text-decoration: underline;
+}
+
+@media (max-width: 480px){
+    .container{
+        width: 90vw;
+    }
 }
